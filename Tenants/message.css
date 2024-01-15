@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #dfe9f5;
+}
+.container{
+  display: flex;
+}
+nav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #fff;
+  width: 235px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a{
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+.container li a:hover{
+  background: #eee;
+}
+
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+
+.header2{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    margin-left: 760px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.tibuok-container{
+    margin: auto;
+}
+
+.aldrin-container{
+    display: flex;
+    flex-direction: column 2;
+    margin-left: 230px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.register-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 180px;
+    height: 140px;
+    width: 250px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.register-container:hover{
+    background-color: orange;
+    color: white;
+}
+
+.second-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 180px;
+    height: 140px;
+    width: 250px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.second-container:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+.phone-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 70px;
+    height: 140px;
+    width: 250px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+} 
+
+.phone-container:hover{
+    background-color: orange;
+    color: white;
+}
+
+.location-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 140px;
+    width: 250px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.location-container:hover{
+    background-color: orange;
+    color: white;
+}
+
+.fa-solid{
+    margin-top: 10px;
+    margin-left: 110px;
+    font-size: 20px;
+}
+
+.paragraph{
+    margin-left: 37px;
+}
+
+.atag{
+    margin-left: 48px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.santag{
+    margin-left: 10px;
+}
+
+.stag{
+    margin-top: 5px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+}
+
+.btag{
+    margin-top: 5px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+
+.ctag{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 62px;
+}

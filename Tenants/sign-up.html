@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div class="container">
+        <p class="ptag">Sign up!</p>
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+        <input class="Name" type="FirstName" placeholder="First Name" name="fname" required>
+    
+        <input class="Name" type="lastname" placeholder="Last Name" name="lname" required>
+
+        <input class="Name" type="middlename" placeholder="Middle Name" name="mname" required>
+
+        <div class="login-container">
+            <input class="Email" type="email"  placeholder="Email" name="email" required>
+    
+            <input class="Email" type="password" placeholder="Password" name="psw" required>
+    
+            <input class="Email" type="password" placeholder="Confirm Password" name="psw" required>
+        </div>
+
+        <div class="birthdate-container">
+           <p class="pbirth">Birthday</p>
+           <input class="birth" type="number" max="12" placeholder="Month" id="">
+           <input class="birth" type="number" max="31" placeholder="Day" id="">
+           <input class="birth" type="number" max="85" placeholder="Year" id="">
+        </div>
+
+        <div class="gender-container">
+        <p class="pgender">GENDER</p>
+        <input class="gender" type="radio" name="" id="" ><label for="">Male</label>
+        <input class="gender" type="radio" name="" id="" ><label for="">Female</label>
+        </div>
+
+        <div class="button-container">
+        <a href="sign-in.html"><button class="sign-button">Sign up</button></a>
+        <a  href="sign-in.html"><p class="cancel-button"><u>Cancel</u></p></a>
+       </div>
+</div>
+</body>
+</html>

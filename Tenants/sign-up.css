@@ -1,0 +1,122 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(200, 195, 195);
+}
+
+.container{
+    background-color: rgb(115, 115, 115);
+    margin: 110px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 500px;
+    width: 550px;
+    box-shadow: -1px 1px 8px 2px rgba(0,0,0,0.75);
+}
+
+.ptag{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Name{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 7px;
+    box-shadow: -1px 1px 8px 2px rgba(0,0,0,0.75);
+}
+
+.login-container{
+   margin-top: 8px;
+   display: flex;
+   flex-direction: column;
+}
+
+.Email{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    box-shadow: -1px 1px 8px 2px rgba(0,0,0,0.75);
+}
+
+.date{
+    border: 2px solid black;
+    padding: 7px;
+}
+
+.birthdate-container{
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.pbirth{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.birth{
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 8px 2px rgba(0,0,0,0.75);
+}
+
+.pgender{
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.gender-container{
+    font-size: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    display: block;
+}
+
+.gender{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.sign-button{
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(125, 125, 255);
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: -1px 1px 8px 2px rgba(0,0,0,0.75);
+}
+
+.cancel-button{
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}

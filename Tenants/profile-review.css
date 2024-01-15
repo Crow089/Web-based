@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #dfe9f5;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #fff;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+a{
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+.container li a:hover{
+  background: #eee;
+}
+
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+
+.container-review{
+    color: white;
+    margin-top: 30px;
+    margin-left: 350px;
+    border: 3px solid yellow;
+    background-color: gray;
+    height: 600px;
+    width: 570px;
+    font-weight: bold;
+}
+
+.profile-p{
+    position: absolute;
+    margin-left: 40px;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.name-container{    
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.submit-btn{
+    display: flex;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn{
+
+    border: 2px solid yellow;
+    height: 50px;
+    width: 120px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+    transition: background-color 0.15s ;
+}
+
+.btn:hover{
+     background-color: yellow;
+     color: black;
+}
+
+.btn2:hover{
+    background-color: yellow;
+     color: black;
+}
+
+.btn2{
+    position: absolute;
+    margin-left: 100px;
+    border: 2px solid yellow;
+    height: 50px;
+    width: 120px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+    transition: background-color 0.15s ;
+    
+}
+
+
+
+
+
+
